@@ -25,5 +25,12 @@ public class TestHello {
 		assertTrue(actual==expected);
 		
 	}
-
+	@Test
+	public void testSub() {
+		//HelloWorld hw=new HelloWorld();
+		int actual=hw.sub(5,4);
+		int expected=1;
+		assertTrue(actual==expected);
+		
+	}
 }
